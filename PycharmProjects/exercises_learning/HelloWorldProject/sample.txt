@@ -1,3 +1,0 @@
-example test
-some more exmaple test
-third line of example

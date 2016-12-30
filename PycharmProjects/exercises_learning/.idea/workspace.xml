@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec2d0f2-df5e-4ddc-bdf9-0472b18e7731" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/exercises_learning.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/exercises_learning.iml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/workspace.xml" />
     </list>
     <ignored path="exercises_learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +26,7 @@
     <favorites_list name="exercises_learning" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/PycharmProjects/exercises_learning" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -59,14 +59,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises_learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />

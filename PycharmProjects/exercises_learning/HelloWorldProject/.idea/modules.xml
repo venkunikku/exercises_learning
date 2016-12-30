@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Data_Analysis_Pandas/.idea/Data_Analysis_Pandas.iml" filepath="$PROJECT_DIR$/../Data_Analysis_Pandas/.idea/Data_Analysis_Pandas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HelloWorldProject.iml" filepath="$PROJECT_DIR$/.idea/HelloWorldProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Regression/.idea/Regression.iml" filepath="$PROJECT_DIR$/../Regression/.idea/Regression.iml" />
+    </modules>
+  </component>
+</project>

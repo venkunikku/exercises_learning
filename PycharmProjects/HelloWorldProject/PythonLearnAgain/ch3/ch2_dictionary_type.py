@@ -78,7 +78,7 @@ if __name__ == '__main__':
         d = defaultdict(constant_factory('<missing nothing provided>'))
         d.update(name='john', age=10)
         print(d)
-        print('This provides some default values automatically', d['lastname'])
+        print('This provides some default values automatically', d['lastname']) 
 
 
 def constant_factory(value):

@@ -79,7 +79,7 @@ if __name__ == '__main__':
         d.update(name='john', age=10)
         print(d)
         print('This provides some default values automatically', d['lastname'])
-
+        print('*************** defaultdict using our own default value - end ************')
 
 def constant_factory(value):
     # import itertools

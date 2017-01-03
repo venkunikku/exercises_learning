@@ -40,6 +40,21 @@ if __name__ == '__main__':
     print('code',test.__code__)
     print('defaults',test.__defaults__)
     print('globals',test.__globals__)
+    print('globals keys from Dictionary', test.__globals__.keys())
+
+    # this did not work due to changing size
+    try:
+        for k, v in test.__globals__.items():
+            if v:
+                print(k, ":", v)
+    except RuntimeError as er:
+        print("Error due to size of the dictionary during runtime---", er)
+
+    # making a copy to avoid size changing error
+    d = test.__globals__.copy()
+    for k, v in d.items():
+        print(k, ":", v)
+
     print('closure',test.__closure__)
 
     class_obecj = A();
@@ -49,5 +64,5 @@ if __name__ == '__main__':
     static = A.get_items
     static(class_obecj,'calling by passing object of class A as first argument')
 
-    c_method = A.class_method
-    print(c_method(100))
+    # c_method = A.class_method
+    #print(c_method(100))

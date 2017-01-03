@@ -1,12 +1,10 @@
-
 def test():
     s = 1/3;
     print(s)
     print(len(str(s)))
 
 
-if __name__ == '__main__':
-    def dictionary_test():
+def dictionary_test():
         item = {
             'no': 1,
             'desc':'description',

@@ -32,6 +32,9 @@ def slice_testing():
             print(field, ':', rec.strip()[slicee])
         print()
 
+    one_line = '0010GEORGE JETSON    12345 SPACESHIP ST   HOUSTON       TX'
+    print(one_line[slice(2, 5)])
+    print(one_line[2:5])
 
 if __name__ == '__main__':
     iter_object = IterationTestClass();

@@ -1,5 +1,8 @@
 import sys
+
+
 def binary_search2(r, guess):
+
     min_no = 0
     if isinstance(r,list):
         max_no = len(r) -1
@@ -28,8 +31,8 @@ def binary_search2(r, guess):
 
 
 if __name__ == '__main__':
-    data = list(range(0, 10000000, 100))
-    output_tuple =  binary_search2(data, 200)
+    data = list(range(0, 10000000, 1))
+    output_tuple = binary_search2(data, 99999)
     print('It took {1} attempts to find the number. The index of the array is {0} '.format(*output_tuple))
     r = list(range(0,10))
     print(r)

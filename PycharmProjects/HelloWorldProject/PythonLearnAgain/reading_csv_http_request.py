@@ -45,7 +45,43 @@ def read_csv_files():
                         [row[0], row[1], row[2], row[3], row[4], 'timeout', 'timeout'])
 
 
+def read_csv_files_failed_timedout_ruls():
+    import csv
+    path_csv = r'C:\Users\vburaga\Desktop\Delete Later\video_urls_udpated_run1.csv'
+    with open(path_csv,'r') as f:
+        line = csv.reader(f,delimiter=',')
+        updated_rows = []
+        i = 0
+
+        with open(r'C:\Users\vburaga\Desktop\Delete Later\video_urls_udpated.csv','w',newline='') as up:
+
+            for row in line:
+                i += 1
+                value = row[5].strip()
+                if  row[5].strip() != '200':
+                    url = row[4]
+                    try:
+                        row_writer = csv.writer(up)
+                        response = urllib.request.urlopen(url, timeout=10)
+                        #t = tuple(
+                        #    (row[0], row[1], row[2], row[3], row[4], response.status,
+                        #     response.getheader('Content-Type')))
+                        #updated_rows.append(t)
+
+                        row_writer.writerow(
+                            [row[0], row[1], row[2], row[3], row[4], response.status,
+                             response.getheader('Content-Type')])
+                        print('Completed:', i,url)
+                    except Exception as e:
+                        print('Time Out', e, i, url)
+                        row_writer.writerow(
+                            [row[0], row[1], row[2], row[3], row[4], 'timeout', 'timeout'])
+
+
+
+
 if __name__ == '__main__':
     #check_urls()
     #old_way()
-    read_csv_files()
+    #read_csv_files()
+    read_csv_files_failed_timedout_ruls()

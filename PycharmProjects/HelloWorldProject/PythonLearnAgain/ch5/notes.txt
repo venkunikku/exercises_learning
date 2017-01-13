@@ -1,0 +1,12 @@
+Note#1:
+
+for xxxxx:
+    if not stirpped:
+        break # this breaks out of loop. You can also have Continue to skip and move to the next loop
+ else:
+    raise Exceptoin # you can use else in the for loop.  this will not execute when break occurs else it will execute
+
+Note#2:
+
+
+

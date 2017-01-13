@@ -27,6 +27,7 @@ def read_csv_files():
         i = 0
 
         with open(r'C:\Users\vburaga\Desktop\Delete Later\video_urls_udpated.csv','w',newline='') as up:
+            row_writer = csv.writer(up)
             for row in line:
                 i += 1
                 url = row[4]
@@ -35,7 +36,6 @@ def read_csv_files():
                     t = tuple(
                         (row[0], row[1], row[2], row[3], row[4], response.status, response.getheader('Content-Type')))
                     updated_rows.append(t)
-                    row_writer = csv.writer(up)
                     row_writer.writerow(
                         [row[0], row[1], row[2], row[3], row[4], response.status, response.getheader('Content-Type')])
                     print('Completed:', i)
@@ -54,20 +54,14 @@ def read_csv_files_failed_timedout_ruls():
         i = 0
 
         with open(r'C:\Users\vburaga\Desktop\Delete Later\video_urls_udpated.csv','w',newline='') as up:
-
+            row_writer = csv.writer(up)
             for row in line:
                 i += 1
                 value = row[5].strip()
                 if  row[5].strip() != '200':
                     url = row[4]
                     try:
-                        row_writer = csv.writer(up)
                         response = urllib.request.urlopen(url, timeout=10)
-                        #t = tuple(
-                        #    (row[0], row[1], row[2], row[3], row[4], response.status,
-                        #     response.getheader('Content-Type')))
-                        #updated_rows.append(t)
-
                         row_writer.writerow(
                             [row[0], row[1], row[2], row[3], row[4], response.status,
                              response.getheader('Content-Type')])
@@ -76,8 +70,6 @@ def read_csv_files_failed_timedout_ruls():
                         print('Time Out', e, i, url)
                         row_writer.writerow(
                             [row[0], row[1], row[2], row[3], row[4], 'timeout', 'timeout'])
-
-
 
 
 if __name__ == '__main__':

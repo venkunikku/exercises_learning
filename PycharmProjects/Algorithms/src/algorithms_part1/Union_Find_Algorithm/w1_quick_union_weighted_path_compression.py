@@ -9,6 +9,12 @@ class QuickUionWithWeighted:
     def root(self, index):
         while index != self.li[index]:
             index = self.li[index]
+            self.li[index] = self.li[self.li[index]]
+        return index
+
+    def root_with_path_compression(self, index):
+        while index != self.li[index]:
+            index = self.li[index]
         return index
 
     def union_weighted(self, p, q):
@@ -45,3 +51,8 @@ if __name__ == '__main__':
     quick_un_weig.union_weighted(6, 1)
     quick_un_weig.union_weighted(7, 3)
     quick_un_weig.print_details()
+
+
+#list [6, 2, 6, 4, 6, 6, 6, 2, 4, 4]
+#Tree sizes [1, 1, 3, 1, 4, 1, 10, 1, 1, 1]
+#counter 0

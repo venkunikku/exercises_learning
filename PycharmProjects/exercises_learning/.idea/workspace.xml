@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec2d0f2-df5e-4ddc-bdf9-0472b18e7731" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/exercises_learning.iml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/exercises_learning/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4ec2d0f2-df5e-4ddc-bdf9-0472b18e7731" name="Default" comment="" />
     <ignored path="exercises_learning.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +20,7 @@
     <favorites_list name="exercises_learning" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/PycharmProjects/exercises_learning" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -59,7 +53,14 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -67,6 +68,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -100,6 +104,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />

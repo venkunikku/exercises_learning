@@ -8,6 +8,17 @@ lazy initialization
 
 '''
 
+@track
+def square(x):
+    return x*x
+
+def track(func):
+    def callf(func):
+        print('calling')
+        r = func(*args,**kwargs)
+        return r
+    return callf
 
 
 if __name__ == '__main__':
+    a = square(10)

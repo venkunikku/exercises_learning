@@ -1,5 +1,6 @@
 import numpy as np
 from scipy import linalg as LA
+import numpy.linalg as n_LA
 
 
 def test():
@@ -63,6 +64,8 @@ def test():
     e_v, e_ve = LA.eig(exercise4_2)
     print('exercise4_2', e_v)
     print('exercise4_2', e_ve)
+    print('Real Part****',e_v[0].real)
+    print('Imaginary Part****', e_v[0].imag)
 
     print(np_sq_matix)
     print(LA.eig(np_sq_matix))
@@ -82,18 +85,56 @@ def test():
 
     exercise4_4 = np.matrix([[1, 0], [0, -1]])
     print('exercise4_4', LA.eig(exercise4_4))
-    print('one values',type(LA.eig(exercise4_4)[0][0]))
+    print('one values', type(LA.eig(exercise4_4)[0][0]))
     print(1 % 3)
 
     exercise4_8 = np.matrix([[5, -3, 2], [1, 0, 2], [2, -1, 3]])
     # exercise4_8 = np.matrix([[5, -3, 2,3], [1, 0, 2,4], [2, -1, 3,5], [1, 2, 3,6]])
     print("Determinanted : ", LA.det(exercise4_8))
 
-    exercice4_14_1 = np.matrix([[2,1],[2,3]])
+    exercice4_14_1 = np.matrix([[2, 1], [2, 3]])
     exercice4_14_2 = np.matrix([[5, 1], [2, 1]])
-    multi = exercice4_14_1*exercice4_14_2
+    multi = exercice4_14_1 * exercice4_14_2
     print('multiplication', multi)
-    print('Determinant',LA.det(multi))
+    print('Determinant', LA.det(multi))
+
+    lewis_carroll = np.matrix(
+        [
+            [2, 3, -1, 2, 0],
+            [1, 2, 3, 1, 4],
+            [2, -1, 2, 1, 1],
+            [3, 1, -1, 2, -2],
+            [-4, 1, 0, 1, 2],
+
+        ]
+
+    )
+    print('Deter', LA.det(lewis_carroll))
+
+    exercise4_21 = np.matrix(
+        [[0, 1],
+         [2, 1]
+
+         ]
+    )
+
+    exercise4_21_2 = np.matrix([[5], [1]])
+    print('exercise4_21: ', LA.eig(exercise4_21))
+
+    print((exercise4_21 ** 10) * exercise4_21_2)
+
+    exercise4_24_a = np.matrix([[1,3],[2,2]])
+    ignv,ignve = LA.eig(exercise4_24_a)
+    inverser_of_eignen = n_LA.inv(ignve)
+
+    print('Eigen vector',ignve)
+    print('Inverse of eigne vector',inverser_of_eignen)
+    print('Eigen values',ignv)
+
+    print(inverser_of_eignen * exercise4_24_a * ignve)
+
+    print(2.05/0.99)
+
 
 if __name__ == '__main__':
     test()

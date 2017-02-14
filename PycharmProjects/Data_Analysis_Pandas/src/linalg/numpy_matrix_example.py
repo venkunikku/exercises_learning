@@ -140,5 +140,9 @@ def test():
     print(lewis_carroll.transpose() == lewis_carroll)
     print(lewis_carroll.transpose()*lewis_carroll)
 
+    singular_matrix = np.matrix([[1, 0, 0], [-2, 0, 0], [4, 6, 1]])
+    print(LA.det(singular_matrix))
+
+
 if __name__ == '__main__':
     test()

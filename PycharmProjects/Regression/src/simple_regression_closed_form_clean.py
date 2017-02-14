@@ -20,6 +20,8 @@ def pand():
     loading_data_from_pickle_data_frame = pd.read_pickle(
         'data/housing_data_seed80.pickle')
 
+    print(loading_data_from_pickle_data_frame.values)
+
     #writing data as a CSV
     loading_data_from_pickle_data_frame.to_csv('data/housring_data_seed80.csv',sep=',')
 
@@ -40,6 +42,12 @@ def pand():
 
     test_output = test_loading_test_data_from_pickle_data_frame['price']
     test_input_feature = test_loading_test_data_from_pickle_data_frame['sqft_living']
+
+    #print(train_input_feature.as_matrix(columns=))
+    #print(train_output.columns[1:])
+
+    #mat = np.matrix([train_input_feature.tolist(),train_output.tolist()])
+    #print(mat)
 
     train_intercept, train_slope = simple_linear_regression(train_input_feature, train_output)
     print('Intercept and Slope After Calculation', str(train_intercept), str(train_slope))

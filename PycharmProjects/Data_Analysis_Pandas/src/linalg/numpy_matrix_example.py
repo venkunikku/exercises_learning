@@ -1,6 +1,7 @@
 import numpy as np
 from scipy import linalg as LA
 import numpy.linalg as n_LA
+import pandas as pa
 
 
 def test():
@@ -134,7 +135,10 @@ def test():
     print(inverser_of_eignen * exercise4_24_a * ignve)
 
     print(2.05/0.99)
-
+    print(lewis_carroll)
+    print(lewis_carroll.transpose())
+    print(lewis_carroll.transpose() == lewis_carroll)
+    print(lewis_carroll.transpose()*lewis_carroll)
 
 if __name__ == '__main__':
     test()

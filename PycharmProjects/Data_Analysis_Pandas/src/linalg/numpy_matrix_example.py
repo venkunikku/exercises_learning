@@ -2,6 +2,9 @@ import numpy as np
 from scipy import linalg as LA
 import numpy.linalg as n_LA
 import pandas as pa
+import sympy as symp
+
+
 
 
 def test():
@@ -143,6 +146,8 @@ def test():
     singular_matrix = np.matrix([[1, 0, 0], [-2, 0, 0], [4, 6, 1]])
     print(LA.det(singular_matrix))
 
+    reduced = np.matrix([[1,2,1,2],[3,8,1,2],[0,4,1,2]])
+    print(symp.matrix(reduced).rref())
 
 if __name__ == '__main__':
     test()

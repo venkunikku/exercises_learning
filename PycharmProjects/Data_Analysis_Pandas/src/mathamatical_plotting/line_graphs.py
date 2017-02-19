@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+
 def graph(formual, x_range):
     x = np.array(x_range)
     y = eval(formual)

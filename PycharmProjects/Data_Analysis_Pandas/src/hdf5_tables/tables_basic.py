@@ -3,7 +3,7 @@ import datetime
 
 
 def create_tables():
-    h5file = open_file('log.h5', mode='w', title='Logg Tracking')
+    h5file = open_file('./hdf5_tables/log.h5', mode='w', title='Logg Tracking')
     group = h5file.create_group(where='/', name='log', title='Audit log data in tables')
     table = h5file.create_table(where=group, name='http_log', description=Log, title='Web log group')
     print(h5file)
@@ -12,7 +12,7 @@ def create_tables():
     # pointer to the row table
     http_log_table = table.row
     print('LoadStart', datetime.datetime.now())
-    for i in range(5000000):
+    for i in range(500):
         #print('working on follwoing {0}'.format(i))
         http_log_table['audit_id'] = 'audit_log_{0:d}'.format(i)
         http_log_table['date'] = i

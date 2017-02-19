@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5bd377d-0356-4077-83c1-786b0e07a5d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/tables_basic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/hdf5_tables.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables.py" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/tables_basic.py" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting/line_graphs.py" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting/line_graphs.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numpy_matrix_example.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="numpy_matrix_example.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -92,18 +95,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hdf5_tables.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tables_basic.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/tables_basic.py">
+      <file leaf-file-name="tables_basic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
@@ -236,10 +229,6 @@
               <option name="myItemId" value="Data_Analysis_Pandas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -260,10 +249,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mathamatical_plotting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,24 +287,6 @@
               <option name="myItemId" value="exercises_learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PycharmProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data_Analysis_Pandas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises_learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises_learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -340,6 +307,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables" />
       <recent name="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg" />
     </key>
   </component>
@@ -424,7 +392,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="exercises_learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/tables_basic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -633,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487047680959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[PyPlot,HDF5,PYTables]  Adding code for pytables and some pyploting.">
+      <created>1487530449261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1487530449277</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -686,7 +661,8 @@
     <MESSAGE value="[scipy,numpy] adding some more examples" />
     <MESSAGE value="[ML] Update seome code and csv files of the data." />
     <MESSAGE value="[PyPlot]  Added some code to plot linear graphs." />
-    <option name="LAST_COMMIT_MESSAGE" value="[PyPlot]  Added some code to plot linear graphs." />
+    <MESSAGE value="[PyPlot,HDF5,PYTables]  Adding code for pytables and some pyploting." />
+    <option name="LAST_COMMIT_MESSAGE" value="[PyPlot,HDF5,PYTables]  Adding code for pytables and some pyploting." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,24 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/math_scipy_env/lib/python3.5/site-packages/tables/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1081,12 +1039,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/tables_basic.py">
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/hdf5_tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

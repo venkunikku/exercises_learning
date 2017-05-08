@@ -25,6 +25,12 @@ def multiple_regression():
     print(derivative)
     print(-np.sum(output_array) * 2)
 
+    initial_weights = np.array([-47000., 1.])
+    step_size = 7e-12
+    tolerance = 2.5e7
+
+    weights = regression_gradient_descent(featured_matrix, output_array, initial_weights, step_size, tolerance)
+    print(weights)
 
 def get_numpy_data(data_frame, features, output):
     data_frame['constant'] = 1
@@ -53,8 +59,9 @@ from math import sqrt
 def regression_gradient_descent(feature_matrix, output, initial_weights, step_size, tolerance):
     converged = False
     weights = np.array(initial_weights)
-
+    i = 0
     while not converged:
+        i += 1
         prediction = predict_output(feature_matrix, weights)
         errors = prediction - output
 
@@ -64,10 +71,12 @@ def regression_gradient_descent(feature_matrix, output, initial_weights, step_si
             derivative = feature_derivative(errors,feature_matrix[:, i])
             gradient_sum_squares += derivative**2
             weights[i] -= step_size * derivative
+            print(derivative, gradient_sum_squares, i, weights[i], tolerance)
         gradient_magnitued = sqrt(gradient_sum_squares)
 
-        if gradient_sum_squares < tolerance:
+        if gradient_magnitued < tolerance:
             converged = True
+    print("Total Iterations: ", i)
     return weights
 
 if __name__ == '__main__':

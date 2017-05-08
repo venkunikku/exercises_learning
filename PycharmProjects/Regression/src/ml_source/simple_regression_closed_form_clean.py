@@ -1,7 +1,7 @@
 import csv
 import pandas as pd
 import numpy as np
-
+import matplotlib.pyplot as plt
 
 def pand():
     dtype_dict = {'bathrooms': float, 'waterfront': int, 'sqft_above': int, 'sqft_living15': float, 'grade': int,
@@ -10,27 +10,27 @@ def pand():
                   'sqft_basement': int, 'yr_built': int, 'id': str, 'sqft_lot': int, 'view': int}
 
     # Loading data and converting to pickle
-    ##df = pd.read_csv('/Users/venkuburagadda/iPython_Notebook_Data/Regression_Actual_Course/Week1/Quize_2/kc_house_train_data.csv')
-    ##df.to_pickle('/Users/venkuburagadda/PycharmProjects/Regression/src/data/housing_data_seed80.pickle')
+    #df = pd.read_csv('data/kc_house_train_data.csv',dtype=dtype_dict)
+    #df.to_pickle('data/housing_data_seed80.pickle')
 
     ##df_test = pd.read_csv('/Users/venkuburagadda/iPython_Notebook_Data/Regression_Actual_Course/Week1/Quize_2/kc_house_test_data.csv')
     ##df_test.to_pickle('/Users/venkuburagadda/PycharmProjects/Regression/src/data/housing_data_seed20.pickle')
 
     # Loading train data from pickle.
     loading_data_from_pickle_data_frame = pd.read_pickle(
-        'data/housing_data_seed80.pickle')
+        '../data/housing_data_seed80.pickle')
 
     print(loading_data_from_pickle_data_frame.values)
 
     #writing data as a CSV
-    loading_data_from_pickle_data_frame.to_csv('data/housring_data_seed80.csv',sep=',')
+    loading_data_from_pickle_data_frame.to_csv('../data/housring_data_seed80.csv',sep=',')
 
     # Loading test data from pickle
     test_loading_test_data_from_pickle_data_frame = pd.read_pickle(
-        'data/housing_data_seed20.pickle')
+        '../data/housing_data_seed20.pickle')
 
     #saving file back to CSV
-    test_loading_test_data_from_pickle_data_frame.to_csv('data/housing_data_test_seed20.csv',sep=',')
+    test_loading_test_data_from_pickle_data_frame.to_csv('../data/housing_data_test_seed20.csv',sep=',')
 
     print(test_loading_test_data_from_pickle_data_frame.head())
 
@@ -48,6 +48,9 @@ def pand():
 
     #mat = np.matrix([train_input_feature.tolist(),train_output.tolist()])
     #print(mat)
+
+    #plt.plot(train_input_feature, train_output, ".")
+    #plt.show()
 
     train_intercept, train_slope = simple_linear_regression(train_input_feature, train_output)
     print('Intercept and Slope After Calculation', str(train_intercept), str(train_slope))

@@ -135,7 +135,7 @@ def test():
     print('Inverse of eigne vector',inverser_of_eignen)
     print('Eigen values',ignv)
 
-    print(inverser_of_eignen * exercise4_24_a * ignve)
+    print('Diagonalize',inverser_of_eignen * exercise4_24_a * ignve)
 
     print(2.05/0.99)
     print(lewis_carroll)
@@ -146,8 +146,50 @@ def test():
     singular_matrix = np.matrix([[1, 0, 0], [-2, 0, 0], [4, 6, 1]])
     print(LA.det(singular_matrix))
 
-    reduced = np.matrix([[1,2,1,2],[3,8,1,2],[0,4,1,2]])
-    print(symp.matrix(reduced).rref())
+    #reduced = np.matrix([[1,2,1,2],[3,8,1,2],[0,4,1,2]])
+    #print(symp.matrix(reduced).rref())
+
+    non_indep = np.matrix([[2,4],[6,12]])
+    print('Eign values of dependent matrix',LA.eig(non_indep))
+
+    dependent_matrix = np.matrix([[1,2,3],[1,2,3],[2,5,8]])
+    try:
+        print(n_LA.inv(dependent_matrix))
+    except Exception as e:
+        print("Singular Matrix. Inverse is not possible")
+
+    symmetric_matrix = np.matrix([
+                        [0,1],
+                        [1,0],
+
+
+                                  ])
+    print(n_LA.inv(symmetric_matrix))
+    eigvalue,eigvector = LA.eig(symmetric_matrix)
+    print('eig values',eigvalue.real)
+    print('Eig Vectors', eigvector)
+    print('Eigen vector inverse', n_LA.inv(eigvector))
+    diagonalize = n_LA.inv(eigvector) * symmetric_matrix * eigvector
+    print('Diagonal', diagonalize  )
+
+    svd_matrix = np.matrix([[0, 1, 0, 0],
+                            [0, 0, 2, 0],
+                            [0, 0, 0, 3],
+                            [0, 0, 0, 0],
+                            ])
+
+    e_val, e_vec = LA.eigh(svd_matrix)
+    print("*****************")
+    print(e_vals)
+    print("******")
+    print(e_vec)
+
+    svd_matrix = np.matrix([[0, 0, 0, 0],
+                            [0, 1, 0, 0],
+                            [0, 0, 4, 0],
+                            [0, 0, 0, 9],
+                            ])
+    print(LA.eigh(svd_matrix))
 
 if __name__ == '__main__':
     test()

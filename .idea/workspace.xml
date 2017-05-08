@@ -4,15 +4,34 @@
     <bookmark url="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting/line_graphs.py" line="52" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5bd377d-0356-4077-83c1-786b0e07a5d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/hdf5_tables.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables.py" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/tables_basic.py" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py" />
+    <list default="true" id="d5bd377d-0356-4077-83c1-786b0e07a5d7" name="Default" comment="[PyPlot,HDF5,PYTables]  Same code. Rearrangin.-Adding code for pytables and some pyploting.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning2/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning2/learning2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data/Philadelphia_Crime_Rate_noNA.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/Infulence_of_high_leverage_points.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/reading_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/experiment_data/Philadelphia_Crime_Rate_noNA.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/kc_house_data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/kc_house_test_data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/kc_house_train_data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/multi_regression/kc_house_data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/multi_regression/kc_house_test_data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/multi_regression/kc_house_train_data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/week-1-simple-regression-assignment-blank.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data_experiment_code/Infulence_of_high_leverage_points.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data_experiment_code/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/multiple_regression.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form.py" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/simple_regression_closed_form.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form_clean.py" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/simple_regression_closed_form_clean.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/housing_data_seed80.pickle" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/housing_data_seed80.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/housring_data_seed80.csv" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/housring_data_seed80.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +46,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="8_1_percent_changes_resampling.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/8_1_percent_changes_resampling.py">
+      <file leaf-file-name="Infulence_of_high_leverage_points.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/Infulence_of_high_leverage_points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="41" column="64" lean-forward="false" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -39,81 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="line_graphs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting/line_graphs.py">
+      <file leaf-file-name="multiple_regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/multiple_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5_concatinating_appending.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/5_concatinating_appending.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="8_2_correlation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/8_2_correlation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="445">
+              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10_handling_missing_data_nan.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/10_handling_missing_data_nan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="numpy_matrix_example.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tables_basic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_regression_closed_form_clean.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form_clean.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,6 +82,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>resha</find>
+      <find>inv</find>
+      <find>dtype_dict</find>
+      <find>ax4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,18 +99,27 @@
         <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/numpy_matrix_example.py" />
         <option value="$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch6/test_del.py" />
         <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/4_read_json_example.py" />
-        <option value="$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form_clean.py" />
         <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting/line_graphs.py" />
-        <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" />
         <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables.py" />
         <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/tables_basic.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js" />
+        <option value="$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/reading_image.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning2/learning2.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form_clean.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Regression/src/ml-source/simple_regression_closed_form_clean.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Regression/src/data_experiment_code/Infulence_of_high_leverage_points.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/simple_regression_closed_form_clean.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/Infulence_of_high_leverage_points.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/multiple_regression.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
+    <option name="x" value="46" />
     <option name="y" value="21" />
-    <option name="width" value="1863" />
+    <option name="width" value="1874" />
     <option name="height" value="1059" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -178,6 +141,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorldProject" />
+              <option name="myItemId" value="Regression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,25 +190,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Data_Analysis_Pandas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises_learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises_learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PycharmProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data_Analysis_Pandas" />
+              <option name="myItemId" value="Regression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -266,7 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Data_Analysis_Pandas" />
+              <option name="myItemId" value="Regression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -274,7 +220,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="linalg" />
+              <option name="myItemId" value="ml_source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +236,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,28 +252,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PycharmProjects/Regression/src/ml-source" />
       <recent name="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables" />
       <recent name="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PycharmProjects/Regression/src/data/multi_regression" />
+      <recent name="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data" />
+      <recent name="$PROJECT_DIR$/PycharmProjects/ExperimentProjects" />
+      <recent name="$PROJECT_DIR$/PycharmProjects/Regression/src/data/experiment_data" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.tables_basic">
-    <configuration default="false" name="numpy_matrix_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="exercises_learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.multiple_regression">
     <configuration default="false" name="simple_regression_closed_form_clean" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,58 +276,75 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="exercises_learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form_clean.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Regression/src/ml-source/simple_regression_closed_form_clean.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="4_read_json_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Infulence_of_high_leverage_points" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Regression/src/data_experiment_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="exercises_learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/4_read_json_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Regression/src/data_experiment_code/Infulence_of_high_leverage_points.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="line_graphs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Infulence_of_high_leverage_points (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="exercises_learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting/line_graphs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/Infulence_of_high_leverage_points.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="tables_basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="simple_regression_closed_form_clean (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="exercises_learning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/simple_regression_closed_form_clean.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="multiple_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="exercises_learning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/multiple_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -532,19 +484,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.numpy_matrix_example" />
-      <item index="1" class="java.lang.String" itemvalue="Python.simple_regression_closed_form_clean" />
-      <item index="2" class="java.lang.String" itemvalue="Python.4_read_json_example" />
-      <item index="3" class="java.lang.String" itemvalue="Python.line_graphs" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tables_basic" />
+      <item index="0" class="java.lang.String" itemvalue="Python.simple_regression_closed_form_clean" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Infulence_of_high_leverage_points" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Infulence_of_high_leverage_points (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.simple_regression_closed_form_clean (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.multiple_regression" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tables_basic" />
-        <item index="1" class="java.lang.String" itemvalue="Python.numpy_matrix_example" />
-        <item index="2" class="java.lang.String" itemvalue="Python.line_graphs" />
-        <item index="3" class="java.lang.String" itemvalue="Python.simple_regression_closed_form_clean" />
-        <item index="4" class="java.lang.String" itemvalue="Python.4_read_json_example" />
+        <item index="0" class="java.lang.String" itemvalue="Python.multiple_regression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Infulence_of_high_leverage_points (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.simple_regression_closed_form_clean (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Infulence_of_high_leverage_points" />
+        <item index="4" class="java.lang.String" itemvalue="Python.simple_regression_closed_form_clean" />
       </list>
     </recent_temporary>
   </component>
@@ -608,19 +560,26 @@
       <option name="project" value="LOCAL" />
       <updated>1487530449277</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[PyPlot,HDF5,PYTables]  Same code. Rearrangin.-Adding code for pytables and some pyploting.">
+      <created>1487530594888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1487530594888</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="21" width="1863" height="1059" extended-state="6" />
-    <editor active="false" />
+    <frame x="46" y="21" width="1874" height="1059" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16854535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="892" y="83" width="192" height="984" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13874066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="892" y="83" width="192" height="984" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5217391" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37886873" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -630,7 +589,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -662,7 +621,8 @@
     <MESSAGE value="[ML] Update seome code and csv files of the data." />
     <MESSAGE value="[PyPlot]  Added some code to plot linear graphs." />
     <MESSAGE value="[PyPlot,HDF5,PYTables]  Adding code for pytables and some pyploting." />
-    <option name="LAST_COMMIT_MESSAGE" value="[PyPlot,HDF5,PYTables]  Adding code for pytables and some pyploting." />
+    <MESSAGE value="[PyPlot,HDF5,PYTables]  Same code. Rearrangin.-Adding code for pytables and some pyploting." />
+    <option name="LAST_COMMIT_MESSAGE" value="[PyPlot,HDF5,PYTables]  Same code. Rearrangin.-Adding code for pytables and some pyploting." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -683,115 +643,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/5_concatinating_appending.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/6_merge_join.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/7_pickling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/8_1_percent_changes_resampling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch6/ch6_coroutine_generators_combine_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch5/ch5_zip_itertools_izip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch5/ch5_enumarate_for_index_tuple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch5/ch5_class_def_iterations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch4/ch4_string_formating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch6/ch6_local_global_var_scope_nsted_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch6/ch6_generator_withYield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch6/ch6_coroutines_withYeild_on_right_side.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch5/ch5_zip_itertools_izip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch5/ch5_enumarate_for_index_tuple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch5/ch5_class_def_iterations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch6/ch6_local_global_var_scope_nsted_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -810,13 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/1_first_pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -846,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#64#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,21 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form_clean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/5_concatinating_appending.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,17 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="1049" column="8" lean-forward="false" selection-start-line="1049" selection-start-column="8" selection-end-line="1049" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting/line_graphs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="734" column="6" lean-forward="false" selection-start-line="734" selection-start-column="6" selection-end-line="734" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,21 +844,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-290">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/hdf5_tables.py" />
     <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/hdf5_tables.py">
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/numpy/linalg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/reading_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/ch3/ch2_char_encoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning/1_first_pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#42#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning2/babayname.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning2/learning2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/data/experiment_data/Philadelphia_Crime_Rate_noNA.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1057,12 +923,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/mathamatical_plotting/line_graphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="2625">
+          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/data_experiment_code/Infulence_of_high_leverage_points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data/Philadelphia_Crime_Rate_noNA.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/pandas/io/pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/simple_regression_closed_form_clean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/Infulence_of_high_leverage_points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="41" column="64" lean-forward="false" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/data/multi_regression/kc_house_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/multiple_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

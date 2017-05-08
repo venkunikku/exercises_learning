@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5bd377d-0356-4077-83c1-786b0e07a5d7" name="Default" comment="[PyPlot,HDF5,PYTables]  Same code. Rearrangin.-Adding code for pytables and some pyploting.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning2/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/learning2/learning2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data/Philadelphia_Crime_Rate_noNA.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/Infulence_of_high_leverage_points.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/ExperimentProjects/data_experiment_code/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/HelloWorldProject/PythonLearnAgain/reading_image.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/experiment_data/Philadelphia_Crime_Rate_noNA.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/kc_house_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/kc_house_test_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/kc_house_train_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/multi_regression/kc_house_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/multi_regression/kc_house_test_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/multi_regression/kc_house_train_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/week-1-simple-regression-assignment-blank.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data_experiment_code/Infulence_of_high_leverage_points.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data_experiment_code/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/multiple_regression.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form.py" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/simple_regression_closed_form.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PycharmProjects/Regression/src/simple_regression_closed_form_clean.py" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/simple_regression_closed_form_clean.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/housing_data_seed80.pickle" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/housing_data_seed80.pickle" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/log.h5" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" afterPath="$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/linalg/numpy_matrix_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/housring_data_seed80.csv" afterPath="$PROJECT_DIR$/PycharmProjects/Regression/src/data/housring_data_seed80.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,7 +36,7 @@
       <file leaf-file-name="multiple_regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/multiple_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
+            <state relative-caret-position="459">
               <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -221,6 +196,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ml_source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data_Analysis_Pandas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data_Analysis_Pandas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data_Analysis_Pandas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hdf5_tables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -848,16 +889,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/hdf5_tables.py" />
-    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/numpy/linalg/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1012,9 +1043,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Data_Analysis_Pandas/src/hdf5_tables/tables_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PycharmProjects/Regression/src/ml_source/multiple_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
+        <state relative-caret-position="459">
           <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />

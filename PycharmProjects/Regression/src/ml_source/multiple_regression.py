@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from math import sqrt
+from math import log
 
 def multiple_regression():
     dtype_dict = {'bathrooms': float, 'waterfront': int, 'sqft_above': int, 'sqft_living15': float, 'grade': int,
@@ -8,6 +9,13 @@ def multiple_regression():
                   'sqft_lot15': float, 'sqft_living': float, 'floors': str, 'condition': int, 'lat': float, 'date': str,
                   'sqft_basement': int, 'yr_built': int, 'id': str, 'sqft_lot': int, 'view': int}
     train_data_set = pd.read_csv("../data/multi_regression/kc_house_train_data.csv", dtype=dtype_dict)
+
+    # Adding log of sqlft
+    train_data_set['log_sqft_living'] = train_data_set['sqft_living'].map(lambda x : log(x))
+    train_data_set['log_sqft_living15'] = train_data_set['sqft_living15'].map(lambda x: log(x))
+    train_data_set['log_price'] = train_data_set['price'].map(lambda x: log(x))
+    print(train_data_set.head())
+
     features = ['sqft_living']
     featured_matrix, output_array = get_numpy_data(train_data_set, features, train_data_set['price'])
     print(featured_matrix[0, :])
@@ -51,18 +59,28 @@ def multiple_regression():
     multi_weights = regression_gradient_descent(multi_feature_matrix, multi_output_price, initila_weights, set_size, tolerance)
     print('Multi Weights:', multi_weights)
 
+    print('**********************Experiment**********************************************************************')
+    print('******************************************************************************************************')
+
+    experiment_features = ['log_sqft_living','log_sqft_living15']
+    exp_feature_matrix, exp_output = get_numpy_data(train_data_set,experiment_features, train_data_set['log_price'])
+    initila_weights = np.array([-10., 1., 1.])
+    set_size = 4e-12
+    tolerance = 1e9
+    exp_weights = regression_gradient_descent(exp_feature_matrix, exp_output, initila_weights,set_size,tolerance)
+    print('Experiment initial weights', exp_weights)
 
     # doubling a colum
-    print('**********************Experiment********************************************')
-    #print('Before',multi_feature_matrix)
-    #multi_feature_matrix[:,1] *= 2
-    #print('After', multi_feature_matrix)
+    print('******************************************************************************************************')
+    print('Before',exp_feature_matrix)
+    exp_feature_matrix[:,1] *= 2
+    print('After', exp_feature_matrix)
     #initila_weights = np.array([-1000000., 1., 1.])
     #set_size = 4e-12
     #tolerance = 1e9
-    #multi_weights = regression_gradient_descent(multi_feature_matrix, multi_output_price, initila_weights, set_size,
-    #                                            tolerance)
-    #print('Multi Weights * 2 :', multi_weights)
+    double_one_weight = regression_gradient_descent(exp_feature_matrix, exp_output, initila_weights,set_size,tolerance)
+    print('******************************************************************************************************')
+    print('Multi Weights * 2 :', double_one_weight)
 
     print('******************************************************************')
 
@@ -101,9 +119,9 @@ def feature_derivative(error, feature):
 def regression_gradient_descent(feature_matrix, output, initial_weights, step_size, tolerance):
     converged = False
     weights = np.array(initial_weights)
-    i = 0
+    iter = 0
     while not converged:
-        i += 1
+        iter += 1
         prediction = predict_output(feature_matrix, weights)
         errors = prediction - output
 
@@ -123,7 +141,7 @@ def regression_gradient_descent(feature_matrix, output, initial_weights, step_si
             #print("INSIDE", i)
             pass
 
-    print("Total Iterations: ", i)
+    print("Total Iterations: ", iter)
     return weights
 
 if __name__ == '__main__':

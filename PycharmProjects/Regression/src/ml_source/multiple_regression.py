@@ -129,6 +129,7 @@ def regression_gradient_descent(feature_matrix, output, initial_weights, step_si
 
         for i in range(len(weights)):
             derivative = feature_derivative(errors, feature_matrix[:, i])
+            print('Derivative: ', derivative)
             #print(i, derivative)
             gradient_sum_squares += derivative**2
             weights[i] -= step_size * derivative

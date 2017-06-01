@@ -128,7 +128,6 @@ def ridge_regression():
 
     print("*************set4********************************************End")
 
-
     print('*********************k-Fold*****degree-15**************************')
     sales = gl.SFrame('../data/week4_ridge_regression/kc_house_data.gl')
     sales = sales.sort(['sqft_living', 'price'])
@@ -145,33 +144,34 @@ def ridge_regression():
     for penality in np.logspace(1, 7, num=13):
         print("*********Working On Following Penality******: ", penality)
         results = []
-        avg_mean = k_fold_cross_validation(10,penality,poly_on_shuffled_data,
-                                'price',my_features_shuffled )
+        avg_mean = k_fold_cross_validation(10, penality, poly_on_shuffled_data,
+                                           'price', my_features_shuffled)
 
-        details.append((penality,avg_mean))
+        details.append((penality, avg_mean))
 
     only_avg = []
     for i in details:
-        print( i[0], ' ******** ', i[1] )
+        print(i[0], ' ******** ', i[1])
         only_avg.append(i[1])
 
-    final_model = gl.linear_regression.create(poly_on_shuffled_data,target='price'
-                                              ,features=my_features_shuffled,
-                                 l2_penalty=1000,validation_set=None,verbose=True)
+    final_model = gl.linear_regression.create(poly_on_shuffled_data, target='price'
+                                              , features=my_features_shuffled,
+                                              l2_penalty=1000, validation_set=None, verbose=True)
     test_predicted_value = final_model.predict(test)
     test_difference = test['price'] - test_predicted_value
-    squred_test_difference = test_difference**2
+    squred_test_difference = test_difference ** 2
     print(sum(squred_test_difference))
 
-    fig6= plt.figure("SET-5- rigid regression with Penality")
+    fig6 = plt.figure("SET-5- rigid regression with Penality")
     axis6 = fig6.add_subplot(111)
 
-    axis6.plot(np.logspace(1, 7, num=13),only_avg,'.' )
+    axis6.plot(np.logspace(1, 7, num=13), only_avg, '.')
     plt.xscale('log')
 
     only_avg.sort()
     print(only_avg)
     plt.show()
+
 
 def k_fold_cross_validation(k, l2_penalty, data, output_name, features_list):
     total_rows = len(data)
@@ -201,61 +201,21 @@ def k_fold_cross_validation(k, l2_penalty, data, output_name, features_list):
     return mean
 
 
-def k_fold():
-    print('*********************k-Fold*****degree-15**************************')
-
-    sales = gl.SFrame('../data/week4_ridge_regression/kc_house_data.gl')
-    sales = sales.sort(['sqft_living', 'price'])
-    (train_valid, test) = sales.random_split(.9, seed=1)
-    train_valid_shuffled = gl.toolkits.cross_validation.shuffle(train_valid, random_seed=1)
-
-    total_rows = len(train_valid_shuffled)
-    kfold = 10
-    poly_on_shuffled_data = polynomial_sframe(train_valid_shuffled['sqft_living'], 15)
-    my_features_shuffled = poly_on_shuffled_data.column_names()
-    poly_on_shuffled_data['price'] = train_valid_shuffled['price']
-
-    details = []
-    for penality in np.logspace(1, 7, num=13):
-        print("*********Working On Following Penality******: ", penality)
-        results = []
-        for i in range(kfold + 1):
-            print("****Penality:", penality, " *****Kfold:", i)
-            start, end = get_start_end_index(total_rows, kfold, i)
-            validation_set = poly_on_shuffled_data[start:end + 1]
-            training_start_slice = poly_on_shuffled_data[0: start]
-            training_end_slice = poly_on_shuffled_data[end + 1:total_rows]
-            train_set_appended = training_start_slice.append(training_end_slice)
-            model = gl.linear_regression.create(train_set_appended, target='price',
-                                                features=my_features_shuffled
-                                                , l2_penalty=penality, validation_set=None)
-            predict = model.predict(validation_set)
-
-            difference_in_prediction = validation_set['price'] - predict
-            difference_in_prediction_sqr = difference_in_prediction**2
-            sum_of_difference = difference_in_prediction_sqr.sum()
-
-            square_root_of_prediction = sqrt(sum_of_difference)
-            results.append(square_root_of_prediction)
-
-        all_value = gl.SArray(results)
-        mean = all_value.mean()
-        dtails = (penality, mean)
-        details.append(dtails)
-
 def get_start_end_index(total_length_of_data, k_fold, i):
     n = total_length_of_data
     k = k_fold  # 10-fold cross-validation
     start = (n * i) / k
-    end = (n * (i + 1)) / k - 1
+    end = ((n * (i + 1)) / k) - 1
     print i, (start, end)
     return (start, end)
 
+
 def test():
-    print(10**1.5)
-    print(np.array([10**1.5]))
+    print(10 ** 1.5)
+    print(np.array([10 ** 1.5]))
+
 
 if __name__ == '__main__':
     ridge_regression()
-    #k_fold()
-    #test()
+    # k_fold()
+    # test()

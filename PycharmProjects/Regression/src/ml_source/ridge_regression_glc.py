@@ -66,7 +66,7 @@ def ridge_regression():
     axis2.plot(poly_data_set1['power_1'], poly_data_set1['price'], '.',
                poly_data_set1['power_1'], set1_model.predict(poly_data_set1), '-')
 
-    print("*************set1********************************************End")
+    print("*************set1***8*****************************************End")
 
     # set2
     print("*************set2*************************************************")

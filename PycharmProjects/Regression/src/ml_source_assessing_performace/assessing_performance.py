@@ -178,7 +178,8 @@ def cubing_using_graphlab():
         poly_data = polynomial_sframe(training['sqft_living'],deg)
         my_features = poly_data.column_names()
         poly_data['price'] = training['price']
-        model = gl.linear_regression.create(poly_data,target='price', features=my_features, validation_set=None, verbose=False)
+        model = gl.linear_regression.create(poly_data,target='price', features=my_features, validation_set=None,
+                                            verbose=False)
         poly_validation_data = polynomial_sframe(validation['sqft_living'], deg)
         poly_validation_data['price'] = validation['price']
         predicted_price = model.predict(poly_validation_data)

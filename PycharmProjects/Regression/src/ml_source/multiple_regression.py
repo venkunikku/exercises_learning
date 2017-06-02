@@ -122,19 +122,25 @@ def regression_gradient_descent(feature_matrix, output, initial_weights, step_si
     iter = 0
     while not converged:
         iter += 1
-        prediction = predict_output(feature_matrix, weights)
-        errors = prediction - output
+        prediction = predict_output(feature_matrix, weights) # (HW) - (feature_matrix * weights)
+        errors = prediction - output #  (y- HW)  (Actual-Estimated)
 
         gradient_sum_squares = 0
 
         for i in range(len(weights)):
-            derivative = feature_derivative(errors, feature_matrix[:, i])
+            derivative = feature_derivative(errors, feature_matrix[:, i])  # final derivative for the weight.
+                                                                       # derivative = (error)*Feature[i].
+                                                                       # This one is for every row in the data set
+
             print('Derivative: ', derivative)
             #print(i, derivative)
-            gradient_sum_squares += derivative**2
-            weights[i] -= step_size * derivative
+            gradient_sum_squares += derivative**2  # here after the calcuation using W(t) t- iterations.
+                                                   # Square the the values to sum
+            weights[i] -= step_size * derivative  # add step size to the derivative so that it
+                                                  #  can move to next point in the curve.
+                                                  #  Also update the wieghts
             #print(derivative, gradient_sum_squares, i, weights[i], tolerance)
-        gradient_magnitued = sqrt(gradient_sum_squares)
+        gradient_magnitued = sqrt(gradient_sum_squares)  # RSS SQR(Sum)
 
         if gradient_magnitued < tolerance:
             converged = True
